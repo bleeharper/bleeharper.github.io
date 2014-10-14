@@ -33,9 +33,12 @@ h3, h4, h5, h6 {
 }
 
 a {
+  transition: background-color 0.25s ease;
   color:#39c;
   font-weight:400;
   text-decoration:none;
+  border-bottom: 2px solid rgba(51, 153, 204, 0.5);
+    rgb(51, 153, 204)
 }
 
 a small {
@@ -43,6 +46,12 @@ a small {
   color:#777;
   margin-top:-0.6em;
   display:block;
+}
+
+a:hover {
+    color: #000;
+/*    text-decoration: underline;*/
+    background-color: rgba(51, 153, 204, 0.2);
 }
 
 .wrapper {

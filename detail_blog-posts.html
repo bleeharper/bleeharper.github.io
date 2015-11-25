@@ -1,10 +1,10 @@
 <!DOCTYPE html>
 <!-- This site was created in Webflow. http://www.webflow.com-->
 <!-- Last Published: Wed Nov 25 2015 21:08:35 GMT+0000 (UTC) -->
-<html data-wf-site="5656221f9bf8e0437a24a8d7" data-wf-page="565622209ba120437a2044f8">
+<html data-wf-site="5656221f9bf8e0437a24a8d7" data-wf-page="565622209ba120437a2044fb">
 <head>
   <meta charset="utf-8">
-  <title>Example Page - Webflow Template</title>
+  <title>Blog Posts</title>
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <meta name="generator" content="Webflow">
   <link rel="stylesheet" type="text/css" href="css/normalize.css">
@@ -27,18 +27,26 @@
     <div class="w-container"><a href="index.html" class="w-nav-brand brand-link"><h1 class="brand-text">Brian Harper</h1></a>
     </div>
   </div>
-  <div class="w-section section">
+  <div class="w-section">
     <div class="w-container">
-      <div class="w-dyn-list">
-        <div class="w-dyn-items w-row">
-          <div class="w-dyn-item w-col w-col-4">
-            <a class="w-inline-block photo-link-block"><img>
-              <div class="title"></div>
-            </a>
-          </div>
+      <div class="w-row">
+        <div class="w-col w-col-3 blog-title-wrapper">
+          <h1 class="blog-title"></h1>
+          <div class="blog-info-text" D, YYYY"></div>
         </div>
-        <div class="w-dyn-empty">
-          <p>No items found.</p>
+        <div class="w-col w-col-6">
+          <div class="w-richtext"></div>
+        </div>
+        <div class="w-col w-col-3">
+          <div class="w-dyn-list small-list">
+            <div class="w-dyn-items">
+              <div class="w-dyn-item"><a class="w-inline-block small-blog-link"><h4 class="small-blog-title"></h4><div class="blog-info-text" D, YYYY"></div></a>
+              </div>
+            </div>
+            <div class="w-dyn-empty">
+              <p>No items found.</p>
+            </div>
+          </div>
         </div>
       </div>
     </div>

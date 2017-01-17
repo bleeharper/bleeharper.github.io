@@ -1,5 +1,5 @@
 body {
-  font-family: Inconsolata, monospace;
+  font-family: pt-serif, sans-serif;
   color: #444;
   font-size: 16px;
   line-height: 22px;
@@ -8,8 +8,8 @@ body {
 
 h1 {
   margin-top: 0px;
-  margin-bottom: 10px;
-  font-family: freight-display-pro, sans-serif;
+  margin-bottom: 16px;
+  font-family: adelle-sans, sans-serif;
   color: #fff;
   font-size: 64px;
   line-height: 64px;
@@ -19,7 +19,7 @@ h1 {
 h2 {
   margin-top: 0px;
   margin-bottom: 10px;
-  font-family: freight-display-pro, sans-serif;
+  font-family: adelle-sans, sans-serif;
   font-size: 32px;
   font-weight: 900;
 }
@@ -27,6 +27,7 @@ h2 {
 h3 {
   margin-top: 0px;
   margin-bottom: 24px;
+  font-family: adelle-sans, sans-serif;
   color: #1c92f3;
   font-size: 16px;
   line-height: 22px;
@@ -941,16 +942,17 @@ blockquote {
 
 .summary {
   margin-bottom: 48px;
-  font-family: Inconsolata, monospace;
+  font-family: pt-serif, sans-serif;
   color: #fff;
-  font-size: 30px;
-  line-height: 48px;
+  font-size: 24px;
+  line-height: 42px;
   font-weight: 400;
 }
 
 .subhead {
   margin-top: -10px;
   margin-bottom: 16px;
+  font-family: adelle-sans, sans-serif;
   color: #9b9b9b;
   font-size: 16px;
 }
@@ -972,6 +974,7 @@ blockquote {
 }
 
 .footerlink {
+  font-family: adelle-sans, sans-serif;
   color: #ecf0f1;
   letter-spacing: 3px;
   text-transform: uppercase;
@@ -1066,6 +1069,11 @@ blockquote {
 
 .imglink:hover {
   box-shadow: none;
+}
+
+.standalonelink {
+  font-family: adelle-sans, sans-serif;
+  font-size: 18px;
 }
 
 html.w-mod-js *[data-ix="fade-in-bottom-page-loads"] {

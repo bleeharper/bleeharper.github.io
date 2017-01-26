@@ -1181,6 +1181,10 @@ html.w-mod-js *[data-ix="scale-on-scroll"] {
 }
 
 @media (max-width: 767px) {
+  p {
+    font-size: 18px;
+    line-height: 32px;
+  }
   .navigation-bar {
     z-index: 1000;
     padding-top: 24px;
@@ -1244,8 +1248,7 @@ html.w-mod-js *[data-ix="scale-on-scroll"] {
 
 @media (max-width: 479px) {
   p {
-    font-size: 16px;
-    line-height: 28px;
+    line-height: 32px;
   }
   .photo-block {
     width: 100%;
@@ -1259,8 +1262,8 @@ html.w-mod-js *[data-ix="scale-on-scroll"] {
     padding-bottom: 40px;
   }
   .maincontainer {
-    padding-right: 24px;
-    padding-left: 24px;
+    padding-right: 16px;
+    padding-left: 16px;
   }
   .maincontainer.top {
     margin-top: 48px;

@@ -78,7 +78,7 @@ a {
 }
 
 a:hover {
-  box-shadow: inset 0 -32px 0 0 rgba(193, 234, 175, .67);
+  box-shadow: inset 0 -32px 0 0 rgba(193, 234, 175, 0.67);
   text-decoration: none;
 }
 
@@ -126,7 +126,7 @@ blockquote {
 }
 
 .button.white:hover {
-  background-color: hsla(0, 0%, 100%, .77);
+  background-color: hsla(0, 0%, 100%, 0.77);
 }
 
 .button.black {
@@ -346,7 +346,7 @@ blockquote {
 .fixed-image-section {
   padding-top: 104px;
   padding-bottom: 104px;
-  background-image: url('../images/example-bg.png');
+  background-image: url('../images/');
   background-position: 50% 50%;
   background-size: 125px;
   background-attachment: fixed;
@@ -405,8 +405,8 @@ blockquote {
 }
 
 .hollow-button.white:hover {
-  border-color: hsla(0, 0%, 100%, .64);
-  color: hsla(0, 0%, 100%, .72);
+  border-color: hsla(0, 0%, 100%, 0.64);
+  color: hsla(0, 0%, 100%, 0.72);
 }
 
 .section-heading {
@@ -449,7 +449,7 @@ blockquote {
   margin-bottom: 17px;
   border: 0px solid #000;
   border-radius: 3px;
-  box-shadow: 0 0 0 1px rgba(64, 64, 71, .3);
+  box-shadow: 0 0 0 1px rgba(64, 64, 71, 0.3);
 }
 
 .form-field.text-area {
@@ -468,7 +468,7 @@ blockquote {
 
 .picture-border {
   border: 5px solid #fff;
-  box-shadow: 0 0 0 1px rgba(0, 0, 0, .12);
+  box-shadow: 0 0 0 1px rgba(0, 0, 0, 0.12);
 }
 
 .round-image {
@@ -492,7 +492,7 @@ blockquote {
 
 .social-button.border {
   padding: 6px;
-  border: 1px solid rgba(0, 0, 0, .36);
+  border: 1px solid rgba(0, 0, 0, 0.36);
   background-color: transparent;
 }
 
@@ -615,7 +615,7 @@ blockquote {
 .sidemenu-wrapper {
   margin-left: 10px;
   padding-left: 20px;
-  border-left: 3px solid rgba(0, 0, 0, .2);
+  border-left: 3px solid rgba(0, 0, 0, 0.2);
 }
 
 .sidemenu-title {
@@ -649,7 +649,7 @@ blockquote {
 .footer-link {
   display: block;
   margin-bottom: 6px;
-  color: rgba(0, 0, 0, .74);
+  color: rgba(0, 0, 0, 0.74);
   text-decoration: none;
 }
 
@@ -745,7 +745,7 @@ blockquote {
 .photo-block {
   height: 272px;
   margin-bottom: 10px;
-  background-image: url('../images/example-bg.png');
+  background-image: url('../images/');
   background-position: 50% 50%;
   background-size: cover;
   background-repeat: no-repeat;
@@ -869,7 +869,7 @@ blockquote {
   margin-bottom: 47px;
   margin-left: auto;
   padding-bottom: 81px;
-  border-bottom: 1px solid rgba(0, 0, 0, .26);
+  border-bottom: 1px solid rgba(0, 0, 0, 0.26);
 }
 
 .gallery-wrapper {
@@ -909,7 +909,7 @@ blockquote {
 .photo-row {
   margin-bottom: 60px;
   padding-bottom: 60px;
-  border-bottom: 1px solid rgba(0, 0, 0, .17);
+  border-bottom: 1px solid rgba(0, 0, 0, 0.17);
 }
 
 .description-text {
@@ -1007,7 +1007,7 @@ blockquote {
 .galleryimage {
   margin-right: 10px;
   margin-bottom: 10px;
-  box-shadow: 0 1px 3px 0 rgba(0, 0, 0, .5);
+  box-shadow: 0 1px 3px 0 rgba(0, 0, 0, 0.5);
   -webkit-transition: all 200ms ease-in-out;
   transition: all 200ms ease-in-out;
 }
@@ -1033,14 +1033,14 @@ blockquote {
 
 .tippytop {
   height: 8px;
-  background-image: -webkit-linear-gradient(0deg, #c1eaaf, #1c92f3);
+  background-image: -webkit-gradient(linear, left top, right top, from(#c1eaaf), to(#1c92f3));
   background-image: linear-gradient(90deg, #c1eaaf, #1c92f3);
 }
 
 .hero {
   padding-top: 96px;
   padding-bottom: 40px;
-  background-image: -webkit-linear-gradient(270deg, #000, #000);
+  background-image: -webkit-gradient(linear, left top, left bottom, from(#000), to(#000));
   background-image: linear-gradient(180deg, #000, #000);
 }
 
@@ -1053,7 +1053,7 @@ blockquote {
 }
 
 .headerlink:hover {
-  box-shadow: inset 0 -48px 0 0 rgba(193, 234, 175, .5);
+  box-shadow: inset 0 -48px 0 0 rgba(193, 234, 175, 0.5);
 }
 
 .workimage {
@@ -1126,7 +1126,7 @@ html.w-mod-js *[data-ix="scale-on-scroll"] {
   transform: scale(0.01, 0.01);
 }
 
-@media (max-width: 991px) {
+@media screen and (max-width: 991px) {
   .navigation-link {
     padding: 9px 0px;
     color: #ecf0f1;
@@ -1180,7 +1180,7 @@ html.w-mod-js *[data-ix="scale-on-scroll"] {
   }
 }
 
-@media (max-width: 767px) {
+@media screen and (max-width: 767px) {
   p {
     font-size: 18px;
     line-height: 32px;
@@ -1246,7 +1246,7 @@ html.w-mod-js *[data-ix="scale-on-scroll"] {
   }
 }
 
-@media (max-width: 479px) {
+@media screen and (max-width: 479px) {
   p {
     line-height: 32px;
   }
